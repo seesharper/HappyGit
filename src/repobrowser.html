@@ -1,0 +1,10 @@
+<template>
+    <h1>Repobrowser</h1>
+    <input type="text" value.bind="SearchTerm & debounce:400">
+    <h2>${SelectedFolder.Name}</h2>
+    <ul>
+        <li repeat.for="folder of Folders">
+            ${folder.Name}
+        </li>    
+    </ul>
+</template>

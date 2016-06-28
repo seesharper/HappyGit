@@ -5,13 +5,14 @@
     "outDir": "dist",
     "sourceMap": true,
     "target": "es5",
-    "module": "amd",
+    "module": "system",
     "declaration": false,
     "noImplicitAny": false,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "node",    
+    
     "lib": ["es2015", "dom"]
   },
   "filesGlob": [
